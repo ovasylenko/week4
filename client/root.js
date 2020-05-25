@@ -37,7 +37,7 @@ const Root = () => {
     <div>
       {userData.user1.name}
       {userData.user2.name}
-      __________
+      __________{/* this is comment for add-redux branch */}
       <div>{store.user1.name}</div>
       <div>{store.user2.name}</div>
     </div>
